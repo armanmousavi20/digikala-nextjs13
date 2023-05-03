@@ -2,6 +2,9 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from './components/header/header';
 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500&family=Nunito+Sans&display=swap" rel="stylesheet"></link>
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {

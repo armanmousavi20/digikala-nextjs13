@@ -1,5 +1,6 @@
 import Image from "next/image";
 import './header.css';
+import Navber from "./navbar/navbar";
 import HeaderImg from '../../../public/images/header/topheader.jpg';
 import shoppingcart from '../../../public/images/header/shoppingcart.png';
 import searchicon from '../../../public/images/header/searchicon.png';
@@ -7,7 +8,7 @@ import logo from '../../../public/images/header/logo.svg';
 import arrowicon from '../../../public/images/header/arrowicon.png';
 
 const Header = () =>{
-    return(<div>
+    return(<div className="mx-3">
                 <Image src={HeaderImg} className="w-full overflow-x-hidden" height={50}   />            
                 <div className="flex items-center px-3 mt-3 justify-between h-14">            
 	              	  <div className="flex w-[600px]">
@@ -33,8 +34,10 @@ const Header = () =>{
 	                <div className="w-[200px] cursor-pointer mx-9">
 	                    <Image src={logo} width={120} height={120} />
 	                </div>   
+	            </div> 
 
-	            </div>                
+				<Navber />     
+				<hr />          
            </div>);
 }
 export default Header;
