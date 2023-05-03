@@ -1,9 +1,10 @@
 import Image from 'next/image'
+import SpecialCategory from './components/specialcategory/specialcategory';
 
 export default function Home() {
   return (
           <div>
-            start design of digikala site with nextjs13 , tailwindcss
+              <SpecialCategory />
           </div>
   );
 }
