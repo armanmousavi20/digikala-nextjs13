@@ -23,7 +23,7 @@ const Slider = () =>
     SwiperCore.use([Autoplay])
    // const navigationPrevRef = useRef(null);
   //  const navigationNextRef = useRef(null);    
-    return(<div className='h-[350px] bg-red-300'>              
+    return(<div className='h-[350px]'>              
                 <Swiper  modules={[Navigation, Pagination]}
                        spaceBetween={50} slidesPerView={1} navigation 
                        pagination={{ clickable : true }} loop={true} 
