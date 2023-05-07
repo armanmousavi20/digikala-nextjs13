@@ -5,7 +5,7 @@ const Navber = () =>
 {
     return(<div className="flex justify-between ml-4 mr-10 my-4 ">                
                 <div className="flex cursor-pointer">
-                    <p className=""> لطفا شهر خود را انتخاب کنید </p>
+                    <p className=""> .لطفا شهر خود را انتخاب کنید </p>
                     <Image src={locationicon} width={20} height={20}
                            className="ml-2" />
                 </div>
